@@ -1,9 +1,9 @@
-class car:
+class carr:
   def __init__(self,model:str,year:int):
     self.model=model
     self.year=year
   def auto(self):
     return f'the {self.model} is {self.year}' 
 
-  car1 = car()
-  car1.auto()
+car1 = carr("sedan",1999)
+car1.auto()
