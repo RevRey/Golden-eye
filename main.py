@@ -6,4 +6,4 @@ class car:
     return f'the {self.model} is {self.year}' 
 
 car1 = car("sedan",1999)
-car1.auto()
+print(car1.auto())
